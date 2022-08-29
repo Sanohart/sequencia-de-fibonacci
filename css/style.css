@@ -1,0 +1,14 @@
+body {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightyellow;
+  text-align: center;
+}
+
+#first-paragraph {
+  text-align: justify;
+}
+
+#search-button {
+  cursor: pointer;
+}

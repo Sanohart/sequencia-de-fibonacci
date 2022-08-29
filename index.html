@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Sequência de Fibonacci</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Sequência de Fibonacci</h1>
+    </header>
+    <main>
+      <p id="first-paragraph">
+        Na matemática, a sucessão de Fibonacci (ou sequência de Fibonacci), é
+        uma sequência de números inteiros, começando normalmente por 0 e 1, na
+        qual cada termo subsequente corresponde à soma dos dois anteriores. A
+        sequência recebeu o nome do matemático italiano Leonardo de Pisa, mais
+        conhecido por Fibonacci, que descreveu, no ano de 1202, o crescimento de
+        uma população de coelhos, a partir desta. Esta sequência já era, no
+        entanto, conhecida na antiguidade.
+      </p>
+      <img
+        id="fiboSample"
+        loading="lazy"
+        src="./fibonacci.png"
+        alt="Sequência de Fibonacci"
+      />
+      <p>
+        Quer testar se um número pertence ou não a sequência? Insira o número
+        desejado na lacuna abaixo e clique no botão "Buscar"!
+      </p>
+      <p>
+        <input id="input-num" type="number" value="0" />
+        <button id="search-button">Buscar Número</button>
+      </p>
+      <p><strong id="result"></strong></p>
+      <script defer src="./js/scrypt.js"></script>
+    </main>
+  </body>
+</html>
